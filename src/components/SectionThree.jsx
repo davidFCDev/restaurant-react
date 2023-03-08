@@ -20,9 +20,9 @@ const SectionTwo = () => {
                     animate={ inView ? animationOptions : {} }
                 >& FUN</motion.h1>
             </div>
-            <img id='img7' src='/src/assets/foto11.webp' alt='foto7' />
-            <video src='/src/assets/video1.mp4' loop muted autoPlay className=' h-[250px]'/>
-            <img id='img8' src='/src/assets/foto17.webp' alt='foto8' />
+            <img id='img7' src='/assets/foto11.webp' alt='foto7' />
+            <video src='/assets/video1.mp4' loop muted autoPlay className=' h-[250px]'/>
+            <img id='img8' src='/assets/foto17.webp' alt='foto8' />
         </section>
     )
 }

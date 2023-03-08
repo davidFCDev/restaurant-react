@@ -7,7 +7,7 @@ const LegalAdvice = () => {
         <section className='legal'>
             <header className='header-legal'>
                 <Link to={'/'}>
-                    <img src='/src/assets/logoPuzzle.png' alt='logo' className='img-logo'/>                
+                    <img src='/assets/logoPuzzle.png' alt='logo' className='img-logo'/>                
                 </Link>
             </header>
 

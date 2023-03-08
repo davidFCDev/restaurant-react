@@ -38,7 +38,7 @@ const Cooking = () => {
                     animate={ inView1 ? animationOptions1 : {} } className='img-container' ref={ref1}>
                     <img 
                         id='chef1' 
-                        src='/src/assets/chef5.webp' 
+                        src='/assets/chef5.webp' 
                         alt='chef1' 
                         />
                 </motion.div>
@@ -47,7 +47,7 @@ const Cooking = () => {
                     animate={ inView2 ? animationOptions2 : {} } className='img-container' ref={ref2}>
                     <img 
                         id='chef2' 
-                        src='/src/assets/chef6.webp' 
+                        src='/assets/chef6.webp' 
                         alt='chef2' 
                         />
                 </motion.div>

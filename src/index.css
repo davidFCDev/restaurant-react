@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'AtlasRegular';
-  src: url('/src/assets/fonts/AtlasTypewriter-Regular.otf');
+  src: url('/src/fonts/AtlasTypewriter-Regular.otf');
 }
 
 @font-face {
   font-family: 'AtlasBold';
-  src: url('/src/assets/fonts/AtlasTypewriterBold.otf');
+  src: url('/src/fonts/AtlasTypewriterBold.otf');
 }
 
 @font-face {
   font-family: 'AtlasLight';
-  src: url('/src/assets/fonts/AtlasTypewriter-Light.otf');
+  src: url('/src/fonts/AtlasTypewriter-Light.otf');
 }
 
 @tailwind base;

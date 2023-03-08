@@ -7,7 +7,7 @@ const Cookies = () => {
         <section className='cookies'>
             <header className='header-cookies'>
                 <Link to={'/'}>
-                    <img src='/src/assets/logoPuzzle.png' alt='logo' className='img-logo'/>                
+                    <img src='/assets/logoPuzzle.png' alt='logo' className='img-logo'/>                
                 </Link>
             </header>
 

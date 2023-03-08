@@ -15,7 +15,7 @@ const MultiOne = () => {
 
     return (
             <section className='image-container-1'>
-                <img id='img1' src='/src/assets/foto1.webp' alt='foto1' />
+                <img id='img1' src='/assets/foto1.webp' alt='foto1' />
                 <div id='box1-1' ref={ref}>
                     <motion.h1 
                         initial={{ opacity: 0, y: 50 }}
@@ -23,13 +23,13 @@ const MultiOne = () => {
                     >FOOD,</motion.h1>
                 </div>
                 <div id='box1-2'>
-                    <video src='/src/assets/video2.mp4' muted loop autoPlay className='w-[100%]'/>
+                    <video src='/assets/video2.mp4' muted loop autoPlay className='w-[100%]'/>
                     <div className='logo-container'>
-                        <img src='/src/assets/stickerRed.png' alt='logoRed' />
+                        <img src='/assets/stickerRed.png' alt='logoRed' />
                     </div>
                 </div>
-                <img id='img2' src='/src/assets/foto18.webp' alt='foto2' />
-                <img id='img3' src='/src/assets/foto8.webp' alt='foto3' />
+                <img id='img2' src='/assets/foto18.webp' alt='foto2' />
+                <img id='img3' src='/assets/foto8.webp' alt='foto3' />
             </section>
     )
 }

@@ -52,7 +52,7 @@ const ContactPage = () => {
 
             <header className='header-contact'>
                 <Link to={'/'}>
-                    <img src='/src/assets/logoPuzzle.png' alt='logo' className='img-logo'/>                
+                    <img src='/assets/logoPuzzle.png' alt='logo' className='img-logo'/>                
                 </Link>
             </header>
 

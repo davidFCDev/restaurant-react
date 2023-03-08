@@ -20,7 +20,7 @@ const Hero = () => {
                 <motion.img 
                     initial={{ opacity: 0, y: 50 }}
                     animate={ inView ? animationOptions : {} }
-                    src='/src/assets/logoPuzzle.png' alt='logo' 
+                    src='/assets/logoPuzzle.png' alt='logo' 
                     />
                 <a href='#gallery' className='arrow-container'>
                     <UseAnimations animation={arrowDown} size={56} />
