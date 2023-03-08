@@ -13,8 +13,8 @@ const ContactPage = () => {
     
     const handleSubmit = async (event) => {
         event.preventDefault();
-        const { name, surname, email, phone } = event.target;
-        if (!name.value || !surname.value || !email.value || !phone.value) {
+        const { name, surname, phone, text } = event.target;
+        if (!name.value || !surname.value || !phone.value || !text.value) {
             toast.error('Por favor, completa todos los campos requeridos');
             return;
         }
@@ -24,18 +24,18 @@ const ContactPage = () => {
         }
         setIsSubmitting(true);
         try {
-            const response = await axios.post('https://formspree.io/f/xdovznrd', {
+            const response = await axios.post("https://formspree.io/f/xvonqppw", {
                 name: event.target.name.value,
                 surname: event.target.surname.value,
-                email: event.target.email.value,
                 phone: event.target.phone.value,
+                text: event.target.text.value,
             });
             toast.success('Enviado correctamente')
             console.log('Formulario enviado', response.data);
             event.target.name.value = '';
             event.target.surname.value = '';
-            event.target.email.value = '';
             event.target.phone.value = '';
+            event.target.text.value = '';
             setAccepted(false);
         } catch (error) {
             console.error('Error al enviar formulario', error);
@@ -61,26 +61,31 @@ const ContactPage = () => {
                     onSubmit={handleSubmit}
                     className="form"
                 >
-                    <h1 className='mb-10'>¡Pregunta lo que quieras!</h1>
-                    <div class="group">
+                    <h1>¡Pregunta lo que quieras!</h1>
+                    <div className="group">
                         <input required="" type="text" className="input" name='name' />
                         <span className="bar"></span>
                         <label>Nombre</label>
                     </div>
-                    <div class="group">
+                    <div className="group">
                         <input required="" type="text" className="input" name='surname'/>
                         <span className="bar"></span>
                         <label>Apellido</label>
                     </div>
-                    <div class="group">
+                    {/* <div class="group">
                         <input required="" type="text" className="input" name='email' />
                         <span className="bar"></span>
                         <label>Email</label>
-                    </div>
-                    <div class="group">
+                    </div> */}
+                    <div className="group">
                         <input required="" type="text" className="input" name='phone'/>
                         <span className="bar"></span>
                         <label>Teléfono</label>
+                    </div>
+                    <div className="group">
+                        <textarea required="" type="text" className="input" name='text'/>
+                        <span className="bar"></span>
+                        <label>Texto</label>
                     </div>
                     <div className='inputcheck'>
                         <input 

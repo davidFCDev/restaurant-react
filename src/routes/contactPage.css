@@ -1,6 +1,5 @@
 .contact-page {
     width: 100%;
-    min-height: 100vh;
     background-color: rgb(238, 238, 238);
     font-family: "AtlasRegular";
 }
@@ -30,7 +29,6 @@
 }
 
 .form {
-    width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,6 +37,8 @@
 
 .form h1 {
     font-size: 25px;
+    font-family: "AtlasBold";
+    margin: 0.5rem 0rem 2.5rem 0rem;
 }
 
 /** Input */
@@ -48,13 +48,15 @@
 }
 
 .input {
-    font-size: 16px;
+    font-size: 15px;
+    font-family: "AtlasLight";
     padding: 10px 10px 10px 5px;
     display: block;
     width: 500px;
     border: none;
     border-bottom: 1px solid #515151;
     background: transparent;
+    color: rgb(48, 48, 48)
 }
 
 .input:focus {
@@ -76,7 +78,7 @@ input[type="checkbox"] {
 
 label {
     font-size: 18px;
-    font-weight: normal;
+    font-family: "AtlasRegular";
     position: absolute;
     pointer-events: none;
     left: 5px;
@@ -86,7 +88,7 @@ label {
 .input:focus ~ label,
 .input:valid ~ label {
     top: -20px;
-    font-size: 16px;
+    font-size: 18px;
     color: #1e1e1e;
 }
 
