@@ -1,0 +1,44 @@
+
+.image-container-3 {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.image-container-3 img {
+    max-height: 300px;
+}
+
+.image-container-3 video {
+    min-height: 300px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+#img7 {
+    border: 1px solid rgb(221, 221, 221);
+}
+
+#img8 {
+    border: 1px solid rgb(221, 221, 221);
+    width: 100%;
+}
+
+#box3 {
+    border: 1px solid rgb(221, 221, 221);
+    background-color: #ED302F;
+    color: white;
+    min-width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#box3 h1 {
+    font-family: "AtlasBold";
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-shadow: 4px 3px 0 rgb(0, 0, 0);
+}
+

@@ -1,0 +1,131 @@
+.contact-page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(238, 238, 238);
+    font-family: "AtlasRegular";
+}
+
+.header-contact {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 20;
+    padding: 1.5rem;
+    justify-content: center;
+    background-color: white;
+    border-bottom: rgb(193, 193, 193) 1px solid;
+}
+
+.img-logo {
+    max-width: 250px;
+}
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 1rem;
+}
+
+.form {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem 0rem;
+}
+
+.form h1 {
+    font-size: 25px;
+}
+
+/** Input */
+
+.group {
+    position: relative;
+}
+
+.input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.inputcheck {
+    display: flex;
+    gap: 2rem;
+}
+
+.inputcheck span:hover {
+    text-decoration: underline;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+label {
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+}
+
+.input:focus ~ label,
+.input:valid ~ label {
+    top: -20px;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 200px;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #000000;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+.input:focus ~ .bar:before,
+.input:focus ~ .bar:after {
+    width: 50%;
+}
+
+.btn-submit:hover {
+    font-weight: 800;
+    transform: scale(1.2);
+}
+
+
+

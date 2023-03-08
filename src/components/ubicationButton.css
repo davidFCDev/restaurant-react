@@ -1,0 +1,13 @@
+.ubi-btn {
+    color: #000000;
+    position: fixed;
+    z-index: 10;
+    bottom: 2%;
+    left: 1%;
+    font-size: 35px;
+}
+
+.ubi-btn:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}

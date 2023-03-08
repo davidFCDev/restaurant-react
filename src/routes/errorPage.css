@@ -1,0 +1,25 @@
+.errorpage {
+    background-color: rgb(233, 233, 233);
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.text-error h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.text-error p {
+    font-size: 20px;
+}

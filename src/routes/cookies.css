@@ -1,0 +1,66 @@
+.cookies {
+
+}
+
+.header-cookies {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding: 1.5rem;
+    justify-content: center;
+    background-color: white;
+    border-bottom: rgb(193, 193, 193) 1px solid;
+}
+
+.img-logo {
+    max-width: 250px;
+}
+
+.text-container-cookies {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 6rem;
+    gap: 2rem;
+}
+
+.text-container-cookies h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.line {
+    width: 60px;
+    border: 2px solid black;
+}
+
+.text-cookies {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    line-height: 1.6rem;
+}
+
+.text-cookies div p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: light;
+}
+
+.text-cookies div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text-cookies div h2 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.text-cookies a {
+    font-weight: bold;
+}
+
+.text-cookies a:hover {
+    text-decoration: underline;
+}

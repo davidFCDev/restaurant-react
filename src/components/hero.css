@@ -1,0 +1,28 @@
+.hero {
+    background-image: url('/src/assets/fondo4.webp');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 5rem;
+    position: relative;
+    font-family: ;
+}
+
+.logo-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,53 @@
+.legal {
+
+}
+
+.header-legal {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding: 1.5rem;
+    justify-content: center;
+    background-color: white;
+    border-bottom: rgb(193, 193, 193) 1px solid;
+}
+
+.img-logo {
+    max-width: 250px;
+}
+
+.text-container-legal {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 6rem;
+    gap: 2rem;
+}
+
+.text-container-legal h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.line {
+    width: 60px;
+    border: 2px solid black;
+}
+
+.text-legal {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    line-height: 1.6rem;
+}
+
+.text-legal div p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: light;
+}
+
+.text-legal div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
