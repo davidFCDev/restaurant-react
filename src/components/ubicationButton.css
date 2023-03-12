@@ -1,5 +1,5 @@
 .ubi-btn {
-    color: #000000;
+    color: #616161;
     position: fixed;
     z-index: 10;
     bottom: 2%;
@@ -10,4 +10,16 @@
 .ubi-btn:hover {
     transform: scale(1.2);
     transition: 0.2s;
+}
+
+@media (max-width: 767px) {
+    .ubi-btn {
+        bottom: 0.5%;
+        left: 1%;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }

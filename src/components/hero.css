@@ -12,11 +12,11 @@
     align-items: center;
     padding-bottom: 5rem;
     position: relative;
-    font-family: ;
+    font-family: "AtlasRegular";
 }
 
 .logo-container {
-    width: 500px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -25,4 +25,40 @@
 .arrow-container {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .logo-container {
+        max-width: 300px;
+        padding-bottom: 6rem;
+        
+    }
+    .hero {
+        justify-content: end;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .hero {
+        padding-bottom: 15rem;
+    }
+    .logo-container {
+        min-width: 500px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo-container {
+        max-width: 300px;
+        
+    }
+    .hero {
+        justify-content: flex-end;
+    }
+}
+
+
+@media (min-width: 1025px) {
+
 }

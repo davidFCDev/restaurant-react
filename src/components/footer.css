@@ -1,7 +1,6 @@
 .footer {
     width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding: 3rem 0rem 1rem 0rem;
     background-color: rgb(27, 27, 27);
     color: rgb(141, 141, 141);
     display: flex;
@@ -73,4 +72,56 @@
 .legal-text p a {
     font-family: "AtlasBold";
     font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        align-items: center;
+    }
+    .footer-text-box {
+        gap: 0.5rem;
+        max-width: 140px;
+    }
+    .footer-info {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 3rem;
+        padding: 0rem 0rem 0rem 0rem;
+    }
+    .footer h3 {
+        font-size: 16px;
+    }
+    .footer p, .footer a {
+        font-size: 12px;
+    }
+    .footer li {
+        font-size: 10px;
+    }
+    .legal-text {
+        gap: 1.5rem;
+    }
+    .legal-text-links {
+        gap: 1rem;
+    }
+    .legal-text p a {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer {
+        padding: 3rem 1rem 1rem 1rem;
+    }
+    .footer h3 {
+        font-size: 17px;
+    }
+    .footer p, .footer a {
+        font-size: 12px;
+    }
+    .footer li {
+        font-size: 10px;
+    }
+    .legal-text p a {
+        font-size: 12px;
+    }
 }

@@ -1,30 +1,41 @@
 .image-container-2 {
+    width: 100%;
+    height: 300px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
 }
 
-.image-container-2 img {
-    max-height: 300px;
+.container-2A {
+    width: 50%;
+    display: flex;
+}
+
+.container-2B {
+    width: 50%;
+    display: flex;
+}
+
+#img3 {
+    width: 60%;
+    border: 1px solid black;
 }
 
 #img4 {
-    border: 1px solid rgb(221, 221, 221);
+    width: 41%;
+    border: 1px solid black;
 }
 
 #img5 {
-    border: 1px solid rgb(221, 221, 221);
-}
-
-#img6 {
-    border: 1px solid rgb(221, 221, 221);
+    width: 50%;
+    border: 1px solid black;
 }
 
 #box2 {
-    border: 1px solid rgb(221, 221, 221);
+    width: 50%;
+    border: 1px solid black;
     background-color: rgb(227, 227, 227);
     color: rgb(0, 0, 0);
-    min-width: 330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,4 +51,48 @@
     text-shadow: 4px 3px 0 rgb(180, 180, 180);
 }
 
+@media (max-width: 767px) {
+    .image-container-2 {
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-2A {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+    .container-2B {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        
+    }
+    #box2 h1 {
+        font-size: 40px;
+        text-shadow: 3px 3px 0 rgb(116, 116, 116);
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image-container-2 {
+        max-height: 180px;
+    }
+    .container-2A {
+        width: 50%;
+    }
+    .container-2B {
+        width: 50%;
+    }
+    #box2 h1 {
+        font-size: 40px;
+        text-shadow: 2px 3px 0 rgb(116, 116, 116);
+    }
+}
+
+
+@media (min-width: 1025px) {
+
+}
 

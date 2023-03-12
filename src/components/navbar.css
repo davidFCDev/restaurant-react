@@ -38,3 +38,23 @@
     background-color: rgb(255, 255, 255);
     color: black;
 }
+
+@media (max-width: 767px) {
+    .navbar-list-element {
+        padding: 1rem 2rem;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-list-element {
+        padding: 1rem 3rem;
+        font-size: 13px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+
+}
+

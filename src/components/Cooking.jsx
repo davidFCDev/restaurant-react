@@ -24,6 +24,12 @@ const Cooking = () => {
         transition: { duration: 1.2 }
     };
 
+    const animationOptions4 = {
+        opacity: 1,
+        x: 0,
+        transition: { duration: 1.2 }
+    };
+
     const [ ref1, inView1 ] = useInView({ threshold: 0.6, triggerOnce: true});
     const [ ref2, inView2 ] = useInView({ threshold: 0.6, triggerOnce: true});
     const [ ref3, inView3 ] = useInView({ threshold: 0.9, triggerOnce: true});
@@ -59,8 +65,8 @@ const Cooking = () => {
                     <TextBubbleLeft text={'"Vanguardia o morir"'}/>
                 </motion.div>
                 <motion.div
-                    initial={{ opacity: 0, x: 50 }}
-                    animate={ inView4 ? animationOptions3 : {} } className='img-container' ref={ref4}>
+                    initial={{ opacity: 0, x: -50 }}
+                    animate={ inView4 ? animationOptions4 : {} } className='img-container' ref={ref4}>
                     <TextBubbleRight text={'"Tradición e innovación"'}/>
                 </motion.div>
                 <motion.div

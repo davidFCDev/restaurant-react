@@ -3,18 +3,17 @@
     border-radius: 20px;
     height: 80px;
     width: 350px;
-    color: rgba(0, 0, 0, 0.73);
-    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background: #ED4241;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.252);
     font-family: "AtlasRegular";
     display: flex;
     justify-content: center;
     align-items: center;
-    font-style: italic;
 }
 
 .text-bubble-left:before {
-    border: 35px solid rgb(255, 255, 255);
+    border: 35px solid #ED4241;
     content: '';
     border-left-color: transparent;
     border-bottom-color: transparent;
@@ -30,18 +29,17 @@
     border-radius: 20px;
     height: 80px;
     width: 350px;
-    color: rgba(0, 0, 0, 0.73);
-    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background: #ED4241;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.252);
     font-family: "AtlasRegular";
     display: flex;
     justify-content: center;
     align-items: center;
-    font-style: italic;
 }
 
 .text-bubble-right:before {
-    border: 35px solid rgb(255, 255, 255);
+    border: 35px solid #ED4241;
     content: '';
     border-left-color: transparent;
     border-bottom-color: transparent;
@@ -49,5 +47,65 @@
     position: absolute;
     bottom: -48px;
     left: calc(50% - -75px)
+}
+
+@media (max-width: 767px) {
+    .text-bubble-left {
+        height: 70px;
+        width: 280px;
+        font-size: 14px;
+    }
+    .text-bubble-right {
+        height: 70px;
+        width: 280px;
+        font-size: 14px;
+    }
+    .text-bubble-left:before {
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+        border-right-color: transparent;
+        bottom: -52px;
+        left: calc(50% - 125px)
+    }
+    .text-bubble-right:before {
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+        border-right-color: transparent;
+        bottom: -52px;
+        left: calc(50% - -55px)
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .text-bubble-left {
+        height: 60px;
+        width: 250px;
+        font-size: 14px;
+    }
+    .text-bubble-right {
+        height: 60px;
+        width: 250px;
+        font-size: 14px;
+    }
+    .text-bubble-left:before {
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+        border-right-color: transparent;
+        bottom: -45px;
+        left: calc(50% - 125px)
+    }
+    .text-bubble-right:before {
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+        border-right-color: transparent;
+        bottom: -45px;
+        left: calc(50% - -55px)
+    }
+}
+
+
+@media (min-width: 1025px) {
+
 }
 

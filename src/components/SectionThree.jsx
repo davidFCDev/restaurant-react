@@ -14,15 +14,19 @@ const SectionTwo = () => {
 
     return (
         <section className='image-container-3'>
-            <div id='box3' ref={ref}>
-                <motion.h1
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={ inView ? animationOptions : {} }
-                >& FUN</motion.h1>
+            <div className='container-3A'>
+                <div id='box3' ref={ref}>
+                    <motion.h1
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={ inView ? animationOptions : {} }
+                    >& FUN</motion.h1>
+                </div>
+                <img id='img7' src='/assets/foto11.webp' alt='foto7' />
             </div>
-            <img id='img7' src='/assets/foto11.webp' alt='foto7' />
-            <video src='/assets/video1.mp4' loop muted autoPlay className=' h-[250px]'/>
-            <img id='img8' src='/assets/foto17.webp' alt='foto8' />
+            <div className='container-3B'>
+                <video id='vid2' src='/assets/video3.mp4' loop muted autoPlay />
+                <img id='img8' src='/assets/foto1.webp' alt='foto8' />
+            </div>
         </section>
     )
 }

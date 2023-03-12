@@ -1,5 +1,5 @@
 .cookies {
-
+    color: rgb(63, 63, 63);
 }
 
 .header-cookies {
@@ -30,7 +30,7 @@
 
 .line {
     width: 60px;
-    border: 2px solid black;
+    border: 2px solid rgb(63, 63, 63);
 }
 
 .text-cookies {
@@ -63,4 +63,19 @@
 
 .text-cookies a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .text-container-cookies h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .text-container-cookies {
+        padding: 8rem 3.5rem 5rem 3.5rem;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }

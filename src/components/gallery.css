@@ -1,0 +1,45 @@
+.image-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.container-A {
+    width: 50%;
+    display: flex;
+}
+
+.container-B {
+    width: 50%;
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .image-container {
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-A {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+    .container-B {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+
+@media (min-width: 1025px) {
+
+}

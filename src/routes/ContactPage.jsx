@@ -72,11 +72,6 @@ const ContactPage = () => {
                         <span className="bar"></span>
                         <label>Apellido</label>
                     </div>
-                    {/* <div class="group">
-                        <input required="" type="text" className="input" name='email' />
-                        <span className="bar"></span>
-                        <label>Email</label>
-                    </div> */}
                     <div className="group">
                         <input required="" type="text" className="input" name='phone'/>
                         <span className="bar"></span>

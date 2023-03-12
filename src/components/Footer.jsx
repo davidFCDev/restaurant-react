@@ -17,32 +17,32 @@ const Footer = () => {
         <section id='footer' className='footer'>
             <main className='footer-info'>
                 <div className='footer-text-box'>
-                    <h3>UBICACIÓN<MdLocationOn /></h3>
+                    <h3>UBICACIÓN<MdLocationOn className='mb-1'/></h3>
                     <div>
-                    <a target='_blank' href='https://www.google.com/maps/place/C.+de+Blasco+de+Garay,+10,+28015+Madrid/@40.4308809,-3.7114436,17z/data=!3m1!4b1!4m6!3m5!1s0xd422867afd8e417:0x2e754708b08047e8!8m2!3d40.4308809!4d-3.7114436!16s%2Fg%2F11bw43_fmx'><p>Blasco de Garay 10, 28015<br/>
+                    <a target='_blank' href='https://www.google.com/maps/place/C.+de+Blasco+de+Garay,+10,+28015+Madrid/@40.4308809,-3.7114436,17z/data=!3m1!4b1!4m6!3m5!1s0xd422867afd8e417:0x2e754708b08047e8!8m2!3d40.4308809!4d-3.7114436!16s%2Fg%2F11bw43_fmx'><p>Blasco de Garay 10, <br/>28015
                         Madrid</p></a>
                     </div>
                 </div>
                 <div className='footer-text-box'>
-                    <h3>HORARIO<FaRegClock /></h3>
+                    <h3>HORARIO<FaRegClock className='mb-1'/></h3>
                     <div>
                         <p>Martes a sábado:</p>
-                        <p>- mediodías: 13:30-15:30</p>
-                        <p>- noches: 20:30-23:00</p>
+                        <p>- comidas: 13:30-15:30</p>
+                        <p>- cenas: 20:30-23</p>
                         <p>Domingo y lunes:</p>
                         <p>- cerrados</p>
                     </div>
                 </div>
                 <div className='footer-text-box'>
-                    <h3>TELÉFONO<MdOutlinePhoneAndroid /></h3>
+                    <h3>TELÉFONO<MdOutlinePhoneAndroid className='mb-1'/></h3>
                     <div>
                         <p>+34 698136700</p>
                     </div>
                 </div>
                 <div className='footer-text-box'>
-                    <h3>SOCIAL<BiLike /></h3>
+                    <h3>SOCIAL<BiLike className='mb-1'/></h3>
                     <div>
-                        <a target='_blank' href='https://www.instagram.com/puzzle_madrid/' >Instagram<GrInstagram className='text-xl'/></a>
+                        <a target='_blank' href='https://www.instagram.com/puzzle_madrid/' >Instagram<GrInstagram className='text-l md:text-xl'/></a>
                     </div>
                 </div>
             </main>

@@ -1,5 +1,5 @@
 .legal {
-
+    color: rgb(63, 63, 63);
 }
 
 .header-legal {
@@ -30,7 +30,7 @@
 
 .line {
     width: 60px;
-    border: 2px solid black;
+    border: 20px solid rgb(255, 255, 255);
 }
 
 .text-legal {
@@ -50,4 +50,19 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+@media (max-width: 767px) {
+    .text-container-legal h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .text-container-legal {
+        padding: 8rem 3.5rem 5rem 3.5rem;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }
