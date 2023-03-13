@@ -94,13 +94,13 @@
         gap: 2.3rem;
     }
     .chef-text-container div:nth-child(1) {
-        right: 0;
+        right: 8px;
     }
     .chef-text-container div:nth-child(2) {
-        left: 0;
+        left: 25px;
     }
     .chef-text-container div:nth-child(3) {
-        right: 0;
+        right: 8px;
     }
 }
 

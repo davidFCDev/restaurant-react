@@ -37,7 +37,7 @@
 
 #img7 {
     border: 1px solid black;
-    width: 50%;
+    width: 60%;
 }
 
 #img8 {
@@ -46,7 +46,7 @@
 }
 
 #vid2 {
-    width: 60%;
+    width: 55%;
     background-color: black;
     border: 1px solid black;
 }
@@ -69,8 +69,13 @@
         
     }
     #box3 h1 {
-        font-size: 40px;
-        text-shadow: 3px 3px 0 rgb(116, 116, 116);
+        font-size: 30px;
+        text-shadow: 3px 3px 0 rgb(0, 0, 0);
+    }
+    #vid2 {
+        width: 58%;
+        background-color: black;
+        border: 1px solid black;
     }
 }
 
@@ -86,8 +91,13 @@
         width: 50%;
     }
     #box3 h1 {
-        font-size: 40px;
+        font-size: 35px;
         text-shadow: 2px 3px 0 rgb(116, 116, 116);
+    }
+    #vid2 {
+        width: 58%;
+        background-color: black;
+        border: 1px solid black;
     }
 }
 

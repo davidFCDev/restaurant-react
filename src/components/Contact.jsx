@@ -13,7 +13,7 @@ const Contact = () => {
         <div className='contact'>
             <Link to={{ pathname: '/contact', hash: '#top' }} onClick={handleContactClick}>
                 <button className='btn-contact'>
-                    <TbMessageCircle className='mt-1'/>
+                    <TbMessageCircle />
                     <span className='font-atlas'>contacta</span>
                 </button>
             </Link>

@@ -15,11 +15,11 @@ const SectionTwo = () => {
     return (
         <section className='image-container-2'>
             <div className='container-2A'>
-                <img id='img3' src='/assets/foto12.webp' alt='foto4' />
-                <img id='img4' src='/assets/foto17.webp' alt='foto5' />
+                <img id='img4' src='/assets/foto12.webp' alt='foto4' />
+                <img id='img5' src='/assets/cartel2.jpg' alt='foto5' />
             </div>
             <div className='container-2B'>
-                <img id='img5' src='/assets/foto5.webp' alt='foto6' />
+                <img id='img6' src='/assets/foto11.webp' alt='foto6' />
                 <div id='box2' ref={ref}>
                     <motion.h1
                         initial={{ opacity: 0, y: 50 }}

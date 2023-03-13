@@ -22,16 +22,14 @@ const MultiOne = () => {
                             animate={ inView ? animationOptions : {} }
                         >FOOD,</motion.h1>
                     </div>
-                    <img id='img1' src='/assets/foto9.webp' alt='foto1' />
+                    <video id='vid1' src='/assets/video1.mp4' muted loop autoPlay />
                 </div>
                 <div className='container-1B'>
                     <div id='box1B'>
-                        <video src='/assets/video2.mp4' muted loop autoPlay className='w-[100%]'/>
-                        <div className='logo-container'>
-                            <img src='/assets/stickerRed.png' alt='logoRed' />
-                        </div>
+                        <img id='img1' src='/assets/foto16.webp' alt='foto1' />
+                        <img id='img2' src='/assets/logoRedVertical.png' alt='logoRed' />
                     </div>
-                    <img id='img2' src='/assets/foto10.webp' alt='foto3' />
+                    <img id='img3' src='/assets/foto10.webp' alt='foto3' />
                 </div>
             </section>
     )

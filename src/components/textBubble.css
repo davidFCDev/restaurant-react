@@ -64,14 +64,14 @@
         border-left-color: transparent;
         border-bottom-color: transparent;
         border-right-color: transparent;
-        bottom: -52px;
+        bottom: -45px;
         left: calc(50% - 125px)
     }
     .text-bubble-right:before {
         border-left-color: transparent;
         border-bottom-color: transparent;
         border-right-color: transparent;
-        bottom: -52px;
+        bottom: -45px;
         left: calc(50% - -55px)
     }
 }

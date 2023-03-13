@@ -16,17 +16,17 @@
     display: flex;
 }
 
-#img3 {
+#img4 {
     width: 60%;
     border: 1px solid black;
 }
 
-#img4 {
+#img5 {
     width: 41%;
     border: 1px solid black;
 }
 
-#img5 {
+#img6 {
     width: 50%;
     border: 1px solid black;
 }
@@ -69,8 +69,8 @@
         
     }
     #box2 h1 {
-        font-size: 40px;
-        text-shadow: 3px 3px 0 rgb(116, 116, 116);
+        font-size: 30px;
+        text-shadow: 2px 2px 0 rgb(116, 116, 116);
     }
 }
 
@@ -86,7 +86,7 @@
         width: 50%;
     }
     #box2 h1 {
-        font-size: 40px;
+        font-size: 35px;
         text-shadow: 2px 3px 0 rgb(116, 116, 116);
     }
 }

@@ -16,19 +16,19 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "legal",
+    path: "/legal",
     element: <LegalAdvice />,
   },
   {
-    path: "privacity",
+    path: "/privacity",
     element: <Privacity />,
   },
   {
-    path: "cookies",
+    path: "/cookies",
     element: <Cookies />,
   },
   {
-    path: "contact",
+    path: "/contact",
     element: <ContactPage />,
   },
 ]);

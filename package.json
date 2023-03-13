@@ -22,6 +22,7 @@
     "react-icons": "^4.8.0",
     "react-intersection-observer": "^9.4.3",
     "react-router-dom": "^6.8.2",
+    "react-scroll": "^1.8.9",
     "react-useanimations": "^2.10.0"
   },
   "devDependencies": {

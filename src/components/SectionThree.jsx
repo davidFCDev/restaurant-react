@@ -21,11 +21,11 @@ const SectionTwo = () => {
                         animate={ inView ? animationOptions : {} }
                     >& FUN</motion.h1>
                 </div>
-                <img id='img7' src='/assets/foto11.webp' alt='foto7' />
+                <video id='vid2' src='/assets/video3.mp4' loop muted autoPlay />
             </div>
             <div className='container-3B'>
-                <video id='vid2' src='/assets/video3.mp4' loop muted autoPlay />
-                <img id='img8' src='/assets/foto1.webp' alt='foto8' />
+                <img id='img7' src='/assets/foto5.webp' alt='foto7' />
+                <img id='img8' src='/assets/cartel1.jpg' alt='foto8' />
             </div>
         </section>
     )
