@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';

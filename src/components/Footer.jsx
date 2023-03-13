@@ -39,7 +39,7 @@ const Footer = () => {
                 <div className='footer-text-box'>
                     <h3>TELÉFONO<MdOutlinePhoneAndroid className='mb-1'/></h3>
                     <div>
-                        <p>+34 698136700</p>
+                        <p>+34 912960896</p>
                     </div>
                 </div>
                 <div className='footer-text-box'>

@@ -17,6 +17,9 @@ const About = () => {
 
     const [ ref1, inView1 ] = useInView({ threshold: 0.5, triggerOnce: true});
     const [ ref2, inView2 ] = useInView({ threshold: 0.5, triggerOnce: true});
+    const [ ref3, inView3 ] = useInView({ threshold: 0.5, triggerOnce: true});
+    const [ ref4, inView4 ] = useInView({ threshold: 0.5, triggerOnce: true});
+    const [ ref5, inView5 ] = useInView({ threshold: 0.5, triggerOnce: true});
 
     return (
         <section id='about' className='about'>
@@ -30,10 +33,23 @@ const About = () => {
                         <hr className="linea" />
                     </div>
                 </div>
-                <div className='parraf-container' ref={ref2}>
+                <div className='parraf-container' >
                     <motion.p
                         initial={{ opacity: 0, x: 100 }}
-                        animate={ inView2 ? animationOptions2 : {} }>In aliquip dolor Lorem nostrud consectetur dolore ad enim. Commodo ut ut proident enim in proident et pariatur dolore consectetur eu excepteur ex adipisicing. Deserunt excepteur aute reprehenderit ad ad et proident culpa esse fugiat aliqua. Voluptate aute aliquip excepteur sint est eiusmod fugiat irure exercitation nostrud laboris pariatur Lorem.</motion.p>
+                        animate={ inView2 ? animationOptions2 : {} } ref={ref2}>PUZZLE es un rompecabezas gastronómico, donde cada pieza es igual de importante y esencial para lograr una experiencia culinaria única y divertida.
+                    </motion.p>
+                    <motion.p
+                        initial={{ opacity: 0, x: 100 }}
+                        animate={ inView3 ? animationOptions2 : {} } ref={ref3}>... es pasión por dar de comer y ver disfrutar a nuestros clientes.
+                    </motion.p>
+                    <motion.p
+                        initial={{ opacity: 0, x: 100 }}
+                        animate={ inView4 ? animationOptions2 : {} } ref={ref4}>... es un buen vinito o vinitos bien acompañado.
+                    </motion.p>
+                    <motion.p
+                        initial={{ opacity: 0, x: 100 }}
+                        animate={ inView5 ? animationOptions2 : {} } ref={ref5}>... pero, sobre todo, es diversión en cada aspecto que lo compone.
+                    </motion.p>
                 </div>
             </div>
         </section>
