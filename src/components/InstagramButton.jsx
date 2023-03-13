@@ -6,7 +6,7 @@ const InstagramButton = () => {
         <div>
             <button className='ubi-btn' onClick={(event) => {
                 if (!window.confirm('¿Quieres acceder a Instagram?')) {
-                                event.preventDefault();
+                    event.preventDefault();
                 }
             }}>
                 <a target='_blank' href='https://www.instagram.com/puzzle_madrid/'><img src='/assets/iconoInstagram.png' alt='ig' /></a>

@@ -9,7 +9,10 @@ const Footer = () => {
 
     const location = useLocation();
 
-    const handleContactClick = () => {
+    const handleContactClick = (event) => {
+        if (!window.confirm('¿Quieres acceder a la ruta?')) {
+            event.preventDefault();
+        }
         window.scrollTo(0, 0);
     }
 
