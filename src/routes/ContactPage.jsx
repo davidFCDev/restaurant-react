@@ -89,7 +89,12 @@ const ContactPage = () => {
                             onChange={handleCheckboxChange}
                             />
                         <Link
-                        to={'/privacity'}
+                            to={'/privacity'}
+                            onClick={(event) => {
+                            if (!window.confirm('¿Quieres leer la política de privacidad?')) {
+                                event.preventDefault();
+                            }
+                            }}
                         >
                             <span>Acepto política de privacidad</span>
                         </Link>
