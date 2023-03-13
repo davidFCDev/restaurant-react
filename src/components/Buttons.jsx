@@ -16,14 +16,8 @@ const Buttons = () => {
                     event.preventDefault();
                 }
             }}>
-                <a target='_blank' href='https://www.instagram.com/puzzle_madrid/'><img src='/assets/iconoInstagram2.png' alt='ig' /></a>
+                <a target='_blank' href='https://www.instagram.com/puzzle_madrid/'><img src='/assets/iconoInstagram.png' alt='ig' /></a>
             </button>
-            <Link to={{ pathname: '/contact', hash: '#top' }} onClick={handleContactClick}>
-                <button className='contact-btn'>
-                    <TbMessageCircle />
-                    <span className='font-atlas'>contacta</span>
-                </button>
-            </Link>
         </div>
     )
 }

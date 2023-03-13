@@ -5,8 +5,6 @@ import Hero from './components/Hero';
 import Gallery from './components/Gallery';
 import About from './components/About';
 import Footer from './components/Footer';
-import Contact from './components/Contact';
-import InstagramButton from './components/InstagramButton';
 import Cooking from './components/Cooking';
 import Buttons from './components/Buttons';
 
@@ -32,8 +30,6 @@ function App() {
         <Cooking />
         <Footer />
         <Buttons />
-        {/* <Contact />
-        <InstagramButton /> */}
       </div>
     </div>
   );
