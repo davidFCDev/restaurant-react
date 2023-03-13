@@ -2,8 +2,8 @@
     color: #616161;
     position: fixed;
     z-index: 10;
-    bottom: 1%;
-    right: 11.1%;
+    bottom: 2%;
+    right: 11.5%;
 }
 
 .ubi-btn:hover {
@@ -12,25 +12,25 @@
 }
 
 .ubi-btn img {
-    width: 62.5px;
+    width: 45px;
 }
 
 @media (max-width: 767px) {
     .ubi-btn {
-        bottom: 0.7%;
-        right: 21%;
+        bottom: 1%;
+        right: 22%;
     }
     .ubi-btn img {
-        width: 33px;
+        width: 26px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .ubi-btn {
-        bottom: 1%;
-        right: 13.3%;
+        bottom: 2%;
+        right: 13.5%;
     }
     .ubi-btn img {
-        width: 36px;
+        width: 28px;
     }
 }
