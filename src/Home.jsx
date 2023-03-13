@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import InstagramButton from './components/InstagramButton';
 import Cooking from './components/Cooking';
+import Buttons from './components/Buttons';
 
 function App() {
   const handleWheel = e => {
@@ -30,8 +31,9 @@ function App() {
         <About />
         <Cooking />
         <Footer />
-        <Contact />
-        <InstagramButton />
+        <Buttons />
+        {/* <Contact />
+        <InstagramButton /> */}
       </div>
     </div>
   );

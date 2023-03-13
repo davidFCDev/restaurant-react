@@ -1,0 +1,67 @@
+.buttons {
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    bottom: 2%;
+    right: 1%;
+    color: white;
+    background-color: #ED302F;
+    opacity: 0.85;
+}
+
+.contact-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 20px;
+    padding: 0.5rem 1.1rem;
+    border: 1px solid rgb(165, 25, 6);
+}
+
+.contact-btn:hover {
+    background-color: #e65555;
+}
+
+.insta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1.1rem;
+    border: 1px solid rgb(165, 25, 6);
+}
+
+.insta-btn:hover {
+    background-color: #e65555;
+}
+
+.insta-btn img {
+    width: 20px;
+}
+
+@media (max-width: 767px) {
+    .buttons {
+        bottom: 0.9%;
+        right: 1.6%;
+    }
+    .contact-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 14px;
+    }
+    .insta-btn {
+        padding: 0.4rem 0.7rem;
+    }
+    .insta-btn img {
+        width: 16px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .insta-btn {
+
+    }
+    .insta-btn img {
+
+    }
+}

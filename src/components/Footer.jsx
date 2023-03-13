@@ -56,7 +56,7 @@ const Footer = () => {
                     <Link to={{pathname:'/privacity', hash:'#top'}} onClick={handleContactClick}><li>Política de privacidad</li></Link>
                     <Link to={{pathname:'/cookies', hash:'#top'}} onClick={handleContactClick}><li>Política de Cookies</li></Link>
                 </div>
-                <p>developed by <a target='_blank' href='https://personal-virtualfolio.netlify.app/#portfolio'>davidFC</a></p>
+                <p id='portfolio'>developed by <a target='_blank' href='https://personal-virtualfolio.netlify.app/#portfolio'>davidFC</a></p>
             </ul>
 
         </section>

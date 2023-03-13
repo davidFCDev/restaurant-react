@@ -1,9 +1,18 @@
 .ubi-btn {
     color: #616161;
+    background-color: #EB413F;
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px black;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     z-index: 10;
     bottom: 2%;
-    right: 11.5%;
+    right: 11.7%;
 }
 
 .ubi-btn:hover {
@@ -12,7 +21,7 @@
 }
 
 .ubi-btn img {
-    width: 45px;
+    width: 28px;
 }
 
 @media (max-width: 767px) {

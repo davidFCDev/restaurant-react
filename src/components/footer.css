@@ -74,6 +74,7 @@
     font-size: 16px;
 }
 
+
 @media (max-width: 767px) {
     .footer {
         align-items: center;
@@ -106,6 +107,10 @@
     }
     .legal-text p a {
         font-size: 12px;
+    }
+    #portfolio {
+        width: 100px;
+        text-align: center;
     }
 }
 
