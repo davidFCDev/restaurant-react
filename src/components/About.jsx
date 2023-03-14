@@ -36,7 +36,7 @@ const About = () => {
                 <div className='parraf-container' >
                     <motion.p
                         initial={{ opacity: 0, x: 100 }}
-                        animate={ inView2 ? animationOptions2 : {} } ref={ref2}>PUZZLE es un rompecabezas gastronómico, donde cada pieza es igual de importante y esencial para lograr una experiencia culinaria única y divertida.
+                        animate={ inView2 ? animationOptions2 : {} } ref={ref2}>PUZZLE es un rompecabezas gastronómico, donde cada pieza es igual de importante y esencial para lograr una experiencia única y divertida.
                     </motion.p>
                     <motion.p
                         initial={{ opacity: 0, x: 100 }}

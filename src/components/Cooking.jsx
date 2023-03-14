@@ -62,17 +62,17 @@ const Cooking = () => {
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
                     animate={ inView3 ? animationOptions3 : {} } className='img-container' ref={ref3}>
-                    <TextBubbleLeft text={'"Vanguardia o morir"'}/>
+                    <TextBubbleLeft text={'"Fusión de sabores en cada bocado"'}/>
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
                     animate={ inView4 ? animationOptions4 : {} } className='img-container' ref={ref4}>
-                    <TextBubbleRight text={'"Tradición e innovación"'}/>
+                    <TextBubbleRight text={'"Tradición y vanguardia a partes iguales"'}/>
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
                     animate={ inView5 ? animationOptions3 : {} } className='img-container' ref={ref5}>
-                    <TextBubbleLeft text={'"Cocina o que ase"'}/>
+                    <TextBubbleLeft text={'"Innovación gastronómica sin límites"'}/>
                 </motion.div>
             </div>
         </section>
