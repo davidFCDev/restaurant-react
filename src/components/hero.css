@@ -29,7 +29,7 @@
 @media (max-width: 767px) {
     .logo-container {
         max-width: 300px;
-        padding-bottom: 3rem;
+        padding-bottom: 4rem;
     }
     .hero {
         justify-content: end;
@@ -62,7 +62,3 @@
     }
 }
 
-
-@media (min-width: 1025px) {
-
-}

@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className='app' onWheel={handleWheel}>
-      <div className=''>
+      <div>
         <Navbar />
       </div>
       <div>

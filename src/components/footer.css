@@ -1,133 +1,133 @@
 .footer {
-    width: 100%;
-    padding: 3rem 0rem 1rem 0rem;
-    background-color: rgb(27, 27, 27);
-    color: rgb(141, 141, 141);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 6rem;
+	width: 100%;
+	padding: 3rem 0rem 1rem 0rem;
+	background-color: rgb(27, 27, 27);
+	color: rgb(141, 141, 141);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 6rem;
 }
 
 .footer-info {
-    display: flex;
-    justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 }
 
 .footer-info a {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.footer-info a:hover {
-    text-decoration: underline;
+	display: flex;
+	align-items: center;
+	text-decoration: underline;
+	gap: 5px;
 }
 
 .footer-text-box {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
 }
 
 .footer h3 {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-family: "AtlasBold";
-    font-size: 22px;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-family: 'AtlasBold';
+	font-size: 22px;
 }
 
-.footer p, .footer a, .footer li {
-    font-family: "AtlasLight";
-    font-size: 14px;
+.footer p,
+.footer a,
+.footer li {
+	font-family: 'AtlasLight';
+	font-size: 14px;
 }
 
 .legal-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
 }
 
 .legal-text-links {
-    display: flex;
-    gap: 2rem;
+	display: flex;
+	gap: 2rem;
 }
 
 .legal-text li:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .legal-text p {
-    color: rgb(255, 255, 255);
-    opacity: 0.6;
+	color: rgb(255, 255, 255);
+	opacity: 0.6;
 }
 
 .legal-text p:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 .legal-text p a {
-    font-family: "AtlasBold";
-    font-size: 16px;
+	font-family: 'AtlasBold';
+	font-size: 16px;
 }
 
-
 @media (max-width: 767px) {
-    .footer {
-        align-items: center;
-        padding: 3rem 0rem 2rem 0rem;
-    }
-    .footer-text-box {
-        gap: 0.5rem;
-        max-width: 140px;
-    }
-    .footer-info {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 3rem;
-        padding: 0rem 0rem 0rem 0rem;
-    }
-    .footer h3 {
-        font-size: 16px;
-    }
-    .footer p, .footer a {
-        font-size: 12px;
-    }
-    .footer li {
-        font-size: 10px;
-    }
-    .legal-text {
-        gap: 1.5rem;
-    }
-    .legal-text-links {
-        gap: 1rem;
-    }
-    .legal-text p a {
-        font-size: 12px;
-    }
-    #portfolio {
-        width: 100px;
-        text-align: center;
-    }
+	.footer {
+		align-items: center;
+		padding: 3rem 0rem 2rem 0rem;
+	}
+	.footer-text-box {
+		gap: 0.5rem;
+		max-width: 140px;
+	}
+	.footer-info {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 3rem;
+		padding: 0rem 0rem 0rem 0rem;
+	}
+	.footer h3 {
+		font-size: 16px;
+	}
+	.footer p,
+	.footer a {
+		font-size: 12px;
+	}
+	.footer li {
+		font-size: 10px;
+	}
+	.legal-text {
+		gap: 1.5rem;
+	}
+	.legal-text-links {
+		gap: 1rem;
+	}
+	.legal-text p a {
+		font-size: 12px;
+	}
+	#portfolio {
+		width: 100px;
+		text-align: center;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .footer {
-        padding: 3rem 1rem 1rem 1rem;
-    }
-    .footer h3 {
-        font-size: 17px;
-    }
-    .footer p, .footer a {
-        font-size: 12px;
-    }
-    .footer li {
-        font-size: 10px;
-    }
-    .legal-text p a {
-        font-size: 12px;
-    }
+	.footer {
+		padding: 3rem 1rem 1rem 1rem;
+	}
+	.footer h3 {
+		font-size: 17px;
+	}
+	.footer p,
+	.footer a {
+		font-size: 12px;
+	}
+	.footer li {
+		font-size: 10px;
+	}
+	.legal-text p a {
+		font-size: 12px;
+	}
 }

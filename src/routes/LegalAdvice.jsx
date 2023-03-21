@@ -20,7 +20,7 @@ const LegalAdvice = () => {
                     </div>
                     <div>
                         <p>2. Se autoriza la visualización, impresión y descarga parcial del contenido de la web sólo y exclusivamente si concurren las siguientes condiciones:</p>
-                        <p>- Que sea compatible con los fines de la web www.puzzlemadrid.com</p>
+                        <p>- Que sea compatible con los fines de la web www.puzzlemadriz.com</p>
                         <p>- Que se realice con el exclusivo ánimo de obtener la información contenida para uso personal y privado. Se prohíbe expresamente su utilización con fines comerciales o para su distribución, comunicación publica, transformación o descompilación.</p>
                         <p>- Que ninguno de los contenidos relacionados en esta web sean modificados de manera alguna.</p>
                         <p>- Que ningún gráfico, icono o imagen disponible en esta web sea utilizado, copiado o distribuido separadamente del texto o resto de imágenes que lo acompañan.</p>
@@ -44,7 +44,7 @@ const LegalAdvice = () => {
                         <p>8. Los datos personales que el cliente facilita a Agustín Ramón Cádiz Vila serán utillizados únicamente para la elaboración de presupuestos y estos, se eliminarán a los 15 días. En ningún caso estos datos son incorporados a base de datos alguna ni cedidos a terceras empresas.</p>
                     </div>
                     <div>
-                        <p>9. Las imágenes utilizadas en www.puzzlemadrid.com son originales o no tienen derechos de autor. En el caso de que alguna de ellas vulnerase esos derechos, indiquenlo a contacto@puzzlemadrid.com y la retiraremos de la web.</p>
+                        <p>9. Las imágenes utilizadas en www.puzzlemadriz.com son originales o no tienen derechos de autor.</p>
                     </div>
                 </div>
             </main>

@@ -38,7 +38,7 @@
     height: 300px;
     position: relative;
     border-radius: 1px;
-    box-shadow: 2px 2px 5px rgb(59, 59, 59);
+    box-shadow: 0 0 5px rgb(60, 54, 51);
 }
 
 .chef-img-container div img:hover {
