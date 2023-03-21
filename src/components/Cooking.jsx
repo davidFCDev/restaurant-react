@@ -41,19 +41,19 @@ const Cooking = () => {
             <div className='chef-img-container'>
                 <motion.div 
                     initial={{ opacity: 0, y: 50 }}
-                    animate={ inView1 ? animationOptions1 : {} } className='img-container' ref={ref1}>
+                    animate={ inView1 ? animationOptions1 : {} } ref={ref1}>
                     <img 
                         id='chef1' 
-                        src='/assets/chef5.webp' 
+                        src='/assets/fotoChef1.jpg' 
                         alt='chef1' 
                         />
                 </motion.div>
                 <motion.div 
                     initial={{ opacity: 0, y: -50 }}
-                    animate={ inView2 ? animationOptions2 : {} } className='img-container' ref={ref2}>
+                    animate={ inView2 ? animationOptions2 : {} } ref={ref2}>
                     <img 
                         id='chef2' 
-                        src='/assets/chef6.webp' 
+                        src='/assets/fotoChef2.jpg' 
                         alt='chef2' 
                         />
                 </motion.div>
@@ -61,18 +61,18 @@ const Cooking = () => {
             <div className='chef-text-container'>
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
-                    animate={ inView3 ? animationOptions3 : {} } className='img-container' ref={ref3}>
+                    animate={ inView3 ? animationOptions3 : {} } ref={ref3}>
                     <TextBubbleLeft text={'"Fusión de sabores en cada bocado"'}/>
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
-                    animate={ inView4 ? animationOptions4 : {} } className='img-container' ref={ref4}>
+                    animate={ inView4 ? animationOptions4 : {} } ref={ref4}>
                     <TextBubbleRight text={'"Tradición y vanguardia a partes iguales"'}/>
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
-                    animate={ inView5 ? animationOptions3 : {} } className='img-container' ref={ref5}>
-                    <TextBubbleLeft text={'"Innovación gastronómica sin límites"'}/>
+                    animate={ inView5 ? animationOptions3 : {} } ref={ref5}>
+                    <TextBubbleLeft text={'"Diversión gastronómica sin límites"'}/>
                 </motion.div>
             </div>
         </section>

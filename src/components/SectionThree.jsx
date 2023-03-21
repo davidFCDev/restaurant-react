@@ -1,6 +1,6 @@
-import './sectionThree.css';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import './sectionThree.css';
 
 const SectionTwo = () => {
 	const animationOptions = {
@@ -14,7 +14,7 @@ const SectionTwo = () => {
 	return (
 		<section className='image-container-3'>
 			<div className='container-3A'>
-				<div id='box3' ref={ref}>
+				<div id='box3A' ref={ref}>
 					<motion.h1
 						initial={{ opacity: 0, y: 50 }}
 						animate={inView ? animationOptions : {}}
@@ -22,11 +22,14 @@ const SectionTwo = () => {
 						& FUN
 					</motion.h1>
 				</div>
-				<video id='vid2' src='/assets/video3.mp4' loop muted autoPlay />
+				<img id='img8' src='/assets/fotoSudadera.webp' alt='foto8' />
 			</div>
 			<div className='container-3B'>
-				<img id='img7' src='/assets/foto5.webp' alt='foto7' />
-				<img id='img8' src='/assets/cartel1.webp' alt='foto8' />
+				<div id='box3B'>
+					<img id='img9' src='/assets/fotoCalamar.webp' alt='foto9' />
+					<img id='img10' src='/assets/fotoDumpling.webp' alt='foto10' />
+				</div>
+				<img id='img11' src='/assets/fotoPasta.webp' alt='foto11' />
 			</div>
 		</section>
 	);

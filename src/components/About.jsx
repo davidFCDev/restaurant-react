@@ -44,7 +44,7 @@ const About = () => {
                     </motion.p>
                     <motion.p
                         initial={{ opacity: 0, x: 100 }}
-                        animate={ inView4 ? animationOptions2 : {} } ref={ref4}>... es un buen vinito o vinitos bien acompañado.
+                        animate={ inView4 ? animationOptions2 : {} } ref={ref4}>... es un buen vinito, o varios, bien acompañado.
                     </motion.p>
                     <motion.p
                         initial={{ opacity: 0, x: 100 }}

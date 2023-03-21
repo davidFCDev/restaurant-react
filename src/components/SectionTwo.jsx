@@ -1,6 +1,6 @@
-import './sectionTwo.css';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import './sectionTwo.css';
 
 const SectionTwo = () => {
 	const animationOptions = {
@@ -14,11 +14,10 @@ const SectionTwo = () => {
 	return (
 		<section className='image-container-2'>
 			<div className='container-2A'>
-				<img id='img4' src='/assets/foto12.webp' alt='foto4' />
-				<img id='img5' src='/assets/cartel2.webp' alt='foto5' />
+				<img id='img5' src='/assets/fotoEclair.webp' alt='foto5' />
+				<img id='img6' src='/assets/fotoLocal5.webp' alt='foto6' />
 			</div>
 			<div className='container-2B'>
-				<img id='img6' src='/assets/foto11.webp' alt='foto6' />
 				<div id='box2' ref={ref}>
 					<motion.h1
 						initial={{ opacity: 0, y: 50 }}
@@ -27,6 +26,7 @@ const SectionTwo = () => {
 						WINE,
 					</motion.h1>
 				</div>
+				<img id='img7' src='/assets/fotoPoster.webp' alt='foto7' />
 			</div>
 		</section>
 	);

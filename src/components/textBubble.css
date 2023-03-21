@@ -1,8 +1,9 @@
 .text-bubble-left {
     position: relative;
-    border-radius: 20px;
-    height: 80px;
-    width: 370px;
+    padding: 0rem 2rem;
+    border-radius: 50px;
+    height: 100px;
+    width: 270px;
     color: rgb(255, 255, 255);
     background: #ED4241;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.252);
@@ -19,16 +20,16 @@
     border-bottom-color: transparent;
     border-right-color: transparent;
     position: absolute;
-    bottom: -48px;
-    left: calc(50% - 145px)
-    
+    bottom: -50px;
+    left: calc(50% - 95px)
 }
 
 .text-bubble-right {
     position: relative;
-    border-radius: 20px;
-    height: 80px;
-    width: 400px;
+    padding: 0rem 2rem;
+    border-radius: 50px;
+    height: 100px;
+    width: 270px;
     color: rgb(255, 255, 255);
     background: #ED4241;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.252);
@@ -45,67 +46,51 @@
     border-bottom-color: transparent;
     border-right-color: transparent;
     position: absolute;
-    bottom: -48px;
-    left: calc(50% - -75px)
+    bottom: -50px;
+    left: calc(50% - -25px)
 }
 
 @media (max-width: 767px) {
     .text-bubble-left {
-        height: 70px;
-        width: 280px;
-        font-size: 14px;
+        text-align: center;
+        height: 90px;
+        width: 200px;
+        padding: 0rem 1.6rem;
     }
     .text-bubble-right {
-        height: 70px;
-        width: 295px;
-        font-size: 14px;
+        text-align: center;
+        height: 90px;
+        width: 205px;
+        padding: 0rem 1.6rem;
     }
     .text-bubble-left:before {
-        border-left-color: transparent;
-        border-bottom-color: transparent;
-        border-right-color: transparent;
-        bottom: -45px;
-        left: calc(50% - 125px)
+        bottom: -50px;
+        left: calc(50% - 80px)
     }
     .text-bubble-right:before {
-        border-left-color: transparent;
-        border-bottom-color: transparent;
-        border-right-color: transparent;
-        bottom: -45px;
-        left: calc(50% - -55px)
+        bottom: -50px;
+        left: calc(50% - -05px)
     }
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .text-bubble-left {
-        height: 60px;
-        width: 260px;
-        font-size: 14px;
+        height: 80px;
+        width: 170px;
     }
     .text-bubble-right {
-        height: 60px;
-        width: 290px;
-        font-size: 14px;
+        height: 80px;
+        width: 170px;
     }
     .text-bubble-left:before {
-        border-left-color: transparent;
-        border-bottom-color: transparent;
-        border-right-color: transparent;
-        bottom: -45px;
-        left: calc(50% - 125px)
+        bottom: -50px;
+        left: calc(50% - 55px)
     }
     .text-bubble-right:before {
-        border-left-color: transparent;
-        border-bottom-color: transparent;
-        border-right-color: transparent;
-        bottom: -45px;
-        left: calc(50% - -55px)
+        bottom: -50px;
+        left: calc(50% - 12px)
     }
 }
 
-
-@media (min-width: 1025px) {
-
-}
 

@@ -2,25 +2,43 @@
     width: 100%;
     padding: 7rem 0;
     display: flex;
+    position: relative;
     align-items: center;
-    background-color: rgb(223, 222, 222);
+    opacity: 1;
+}
+
+.cooking::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0.7;
+    z-index: -1;
+    background-image: url('/assets/fotoCooking.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .chef-img-container {
     width: 50%;
     height: 100%;
     display: flex;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
 }
 
 .chef-img-container div {
     overflow: hidden;
-    width: 200px;
+    width: 180px;
     height: 300px;
     position: relative;
     border-radius: 1px;
-    box-shadow: 2px 2px 5px rgb(48, 48, 48);
+    box-shadow: 2px 2px 5px rgb(59, 59, 59);
 }
 
 .chef-img-container div img:hover {
@@ -67,17 +85,17 @@
 
 .chef-text-container div:nth-child(1) {
     position: relative;
-    right: 10%;
+    right: 12%;
 }
 
 .chef-text-container div:nth-child(2) {
     position: relative;
-    left: 10%;
+    left: 12%;
 }
 
 .chef-text-container div:nth-child(3) {
     position: relative;
-    right: 10%;
+    right: 5%;
 }
 
 @media (max-width: 767px) {
@@ -91,47 +109,63 @@
     }
     .chef-img-container div {
         width: 150px;
-        height: 220px;
+        height: 240px;
     }
     .chef-text-container {
         width: 100%;
-        gap: 2.3rem;
+        gap: 2.5rem;
     }
     .chef-text-container p {
-        font-size: 10px;
+        font-size: 12px;
     }
     .chef-text-container div:nth-child(1) {
-        right: 10px;
+        position: relative;
+        right: 10%;
     }
+    
     .chef-text-container div:nth-child(2) {
-        left: 28px;
+        position: relative;
+        left: 20%;
     }
+    
     .chef-text-container div:nth-child(3) {
-        right: 5px;
+        position: relative;
+        right: 3%;
     }
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .chef-img-container div {
-        width: 150px;
-        height: 220px;
+        width: 120px;
+        height: 200px;
     }
     .cooking {
         padding: 5rem 0;
     }
     .chef-text-container p {
-        font-size: 10px;
-    }
-    .chef-img-container {
-
+        font-size: 11px;
     }
     .chef-text-container {
-
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.7rem;
+    }
+    .chef-text-container div:nth-child(1) {
+        position: relative;
+        right: 10%;
+    }
+    
+    .chef-text-container div:nth-child(2) {
+        position: relative;
+        left: 20%;
+    }
+    
+    .chef-text-container div:nth-child(3) {
+        position: relative;
+        right: 3%;
     }
 }
 
-
-@media (min-width: 1025px) {
-
-}
