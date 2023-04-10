@@ -1,4 +1,4 @@
-import './hero.css';
+import '../styles/hero.css';
 import UseAnimations from "react-useanimations";
 import arrowDown from "react-useanimations/lib/arrowDown";
 import { motion } from 'framer-motion';
@@ -20,10 +20,10 @@ const Hero = () => {
                 <motion.img 
                     initial={{ opacity: 0, y: 50 }}
                     animate={ inView ? animationOptions : {} }
-                    src='/assets/logoPuzzle.png' alt='logo' 
+                    src='/assets/logoPuzzleBlanco.png' alt='logo' 
                     />
                 <a href='#gallery' className='arrow-container'>
-                    <UseAnimations animation={arrowDown} size={56} />
+                    <UseAnimations animation={arrowDown} size={56} strokeColor='white'/>
                 </a>
             </div>
         </section>

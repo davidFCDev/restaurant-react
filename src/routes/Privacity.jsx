@@ -1,4 +1,4 @@
-import './privacity.css';
+import '../styles/privacity.css';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 

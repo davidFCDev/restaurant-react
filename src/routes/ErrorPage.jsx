@@ -1,4 +1,4 @@
-import './errorPage.css';
+import '../styles/errorPage.css';
 import { VscError } from 'react-icons/vsc';
 
 const ErrorPage = () => {

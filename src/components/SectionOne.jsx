@@ -1,4 +1,4 @@
-import './sectionOne.css';
+import '../styles/sectionOne.css';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -29,7 +29,7 @@ const MultiOne = () => {
 					<img id='img2' src='/assets/fotoOstra.webp' alt='foto1' />
 					<img id='img3' src='/assets/logoRedVertical.png' alt='logoRed' />
 				</div>
-				<img id='img4' src='/assets/fotoTaco2.webp' alt='foto3' />
+				<img id='img4' src='/assets/fotoParpatana.webp' alt='foto3' />
 			</div>
 		</section>
 	);

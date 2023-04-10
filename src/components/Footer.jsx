@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './footer.css';
+import '../styles/footer.css';
 import { MdLocationOn, MdOutlinePhoneAndroid } from 'react-icons/md';
 import { BiLike } from 'react-icons/bi';
 import { FaRegClock } from 'react-icons/fa';

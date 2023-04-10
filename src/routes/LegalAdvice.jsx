@@ -1,4 +1,4 @@
-import './legalAdvice.css';
+import '../styles/legalAdvice.css';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 

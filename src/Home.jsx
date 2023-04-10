@@ -6,7 +6,7 @@ import Gallery from './components/Gallery';
 import About from './components/About';
 import Footer from './components/Footer';
 import Cooking from './components/Cooking';
-import Buttons from './components/Buttons';
+import IgButton from './components/IgButton';
 
 function App() {
   const handleWheel = e => {
@@ -29,7 +29,7 @@ function App() {
         <About />
         <Cooking />
         <Footer />
-        <Buttons />
+        <IgButton />
       </div>
     </div>
   );

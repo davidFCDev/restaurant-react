@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import './sectionTwo.css';
+import '../styles/sectionTwo.css';
 
 const SectionTwo = () => {
 	const animationOptions = {
@@ -15,7 +15,7 @@ const SectionTwo = () => {
 		<section className='image-container-2'>
 			<div className='container-2A'>
 				<img id='img5' src='/assets/fotoEclair.webp' alt='foto5' />
-				<img id='img6' src='/assets/fotoLocal5.webp' alt='foto6' />
+				<img id='img6' src='/assets/fotoPostre.webp' alt='foto6' />
 			</div>
 			<div className='container-2B'>
 				<div id='box2' ref={ref}>

@@ -1,5 +1,5 @@
 import React from "react";
-import './textBubble.css'
+import '../styles/textBubble.css'
 
 const TextBubbleRight = ({text}) => {
     return (

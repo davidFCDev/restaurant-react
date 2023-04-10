@@ -1,0 +1,58 @@
+.navbar {
+	width: 100%;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	z-index: 20;
+	color: rgb(114, 114, 114);
+}
+
+.navbar-list {
+	display: flex;
+	gap: 3px;
+}
+
+.navbar-list-element {
+	background-color: rgba(255, 255, 255, 0.774);
+	padding: 1.5rem 4rem;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	font-family: 'AtlasBold';
+}
+
+.navbar-list-element:hover {
+	cursor: pointer;
+	color: black;
+	background-color: rgb(255, 255, 255);
+	transition: 0.3s;
+}
+
+.active {
+	border: black;
+	background-color: rgba(0, 0, 0, 0.742);
+	color: white;
+}
+
+.active:hover {
+	background-color: rgb(0, 0, 0);
+	border: rgb(255, 255, 255);
+	color: white;
+}
+
+@media (max-width: 767px) {
+	.navbar-list-element {
+		padding: 1rem 1.7rem;
+		font-size: 13px;
+		letter-spacing: 1px;
+		font-family: 'AtlasRegular';
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.navbar-list-element {
+		padding: 1rem 3rem;
+		font-size: 13px;
+	}
+}

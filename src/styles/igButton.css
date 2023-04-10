@@ -1,10 +1,10 @@
-.buttons {
+.ig-btn {
     position: fixed;
     display: flex;
     z-index: 10;
     bottom: 2%;
     right: 1%;
-    background-color: #ED302F;
+    background-color: #e4e4e4;
     border-radius: 12px;
     opacity: 0.9;
 }
@@ -19,13 +19,13 @@
 }
 
 @media (max-width: 767px) {
-    .buttons {
+    .ig-btn {
         bottom: 1.5%;
         right: 3%;
         opacity: 0.8;
     }
     .insta-btn img {
-        width: 34px;
+        width: 30px;
     }
 
 }

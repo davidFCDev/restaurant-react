@@ -1,4 +1,4 @@
-import './cooking.css';
+import '../styles/cooking.css';
 import TextBubbleLeft from './TextBubbleLeft';
 import TextBubbleRight from './TextBubbleRight';
 import { motion } from 'framer-motion';

@@ -7,12 +7,12 @@
 }
 
 .container-1A {
-	width: 45%;
+	width: 48%;
 	display: flex;
 }
 
 .container-1B {
-	width: 55%;
+	width: 52%;
 	display: flex;
 }
 
@@ -91,10 +91,10 @@
 		max-height: 300px;
 	}
 	#box1B {
-		width: 50%;
+		width: 45%;
 	}
 	#img4 {
-		width: 50%;
+		width: 55%;
 	}
 }
 
