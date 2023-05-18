@@ -22,11 +22,11 @@ const SectionTwo = () => {
 						& FUN
 					</motion.h1>
 				</div>
-				<img id='img8' src='/assets/fotoLocal.webp' alt='foto8' />
+				<img id='img8' src='/assets/fotoPoster.webp' alt='foto8' />
 			</div>
 			<div className='container-3B'>
 				<div id='box3B'>
-					<img id='img9' src='/assets/fotoRamen.webp' alt='foto9' />
+					<img id='img9' src='/assets/fotoVino3.webp' alt='foto9' />
 					<img id='img10' src='/assets/fotoDumpling.webp' alt='foto10' />
 				</div>
 				<img id='img11' src='/assets/fotoPasta.webp' alt='foto11' />

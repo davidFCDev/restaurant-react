@@ -43,11 +43,13 @@ const Footer = () => {
 						<FaRegClock className='mb-1' />
 					</h3>
 					<div>
-						<p>Martes a sábado:</p>
-						<p>- comidas: 13:30-15:30</p>
-						<p>- cenas: 20:30-23</p>
-						<p>Domingo y lunes:</p>
-						<p>- cerrados</p>
+						<p>Martes a jueves:</p>
+						<p>- 19:30 a 00:00</p>
+						<p>Viernes y sábado:</p>
+						<p>- 13:30 a 15:30</p>
+						<p>- 20:30 a 00:00</p>
+						<p>Domingos y lunes cerrados</p>
+
 					</div>
 				</div>
 				<div className='footer-text-box'>

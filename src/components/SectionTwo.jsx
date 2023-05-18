@@ -14,7 +14,7 @@ const SectionTwo = () => {
 	return (
 		<section className='image-container-2'>
 			<div className='container-2A'>
-				<img id='img5' src='/assets/fotoEclair.webp' alt='foto5' />
+				<img id='img5' src='/assets/fotoEclair3.webp' alt='foto5' />
 				<img id='img6' src='/assets/fotoPostre.webp' alt='foto6' />
 			</div>
 			<div className='container-2B'>
@@ -26,7 +26,7 @@ const SectionTwo = () => {
 						WINE,
 					</motion.h1>
 				</div>
-				<img id='img7' src='/assets/fotoPoster.webp' alt='foto7' />
+				<img id='img7' src='/assets/fotoCasette.webp' alt='foto7' />
 			</div>
 		</section>
 	);
