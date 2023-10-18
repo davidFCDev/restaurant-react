@@ -24,6 +24,7 @@ const About = () => {
     return (
         <section id='about' className='about'>
             <div className='about-text-container'>
+
                 <div className='title-container'>
                     <div className='title-about' ref={ref1}>
                         <motion.h1
@@ -33,6 +34,7 @@ const About = () => {
                         <hr className="linea" />
                     </div>
                 </div>
+
                 <div className='parraf-container' >
                     <motion.p
                         initial={{ opacity: 0, x: 100 }}
@@ -51,6 +53,7 @@ const About = () => {
                         animate={ inView5 ? animationOptions2 : {} } ref={ref5}>... pero, sobre todo, es diversión en cada aspecto que lo compone.
                     </motion.p>
                 </div>
+                
             </div>
         </section>
     )
