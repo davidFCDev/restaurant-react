@@ -37,8 +37,8 @@
     width: 180px;
     height: 300px;
     position: relative;
-    border-radius: 1px;
-    box-shadow: 0 0 5px rgb(60, 54, 51);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .chef-img-container div img:hover {

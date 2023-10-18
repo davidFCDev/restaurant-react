@@ -4,7 +4,8 @@
     z-index: 10;
     bottom: 2%;
     right: 1%;
-    background-color: #e4e4e4;
+    background-color: #ED4241;
+    padding: 0.3rem;
     border-radius: 12px;
     opacity: 0.9;
 }
@@ -15,7 +16,7 @@
 }
 
 .insta-btn img {
-    width: 40px;
+    width: 30px;
 }
 
 @media (max-width: 767px) {

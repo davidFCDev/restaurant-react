@@ -4,7 +4,7 @@ import '../styles/textBubble.css'
 const TextBubbleLeft = ({text}) => {
     return (
         <div className="text-bubble-left">
-        <p>{text}</p>
+        <p className="text-center">{text}</p>
         </div>
     );
 };
