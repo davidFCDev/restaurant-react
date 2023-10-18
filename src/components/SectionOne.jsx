@@ -26,10 +26,10 @@ const MultiOne = () => {
 			</div>
 			<div className='container-1B'>
 				<div id='box1B'>
-					<img id='img2' src='/assets/fotoOstra.webp' alt='foto1' />
-					<img id='img3' src='/assets/logoRedVertical.png' alt='logoRed' />
+					<img id='img2' src='/assets/fotoChicaLata.webp' alt='foto1' />
+					<img id='img3' src='/assets/logoRedVertical.png' alt='logoRed'/>
 				</div>
-				<img id='img4' src='/assets/fotoParpatana3.webp' alt='foto3' />
+				<img id='img4' src='/assets/fotoOstra3.webp' alt='foto3' />
 			</div>
 		</section>
 	);

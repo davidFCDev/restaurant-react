@@ -14,8 +14,8 @@ const SectionTwo = () => {
 	return (
 		<section className='image-container-2'>
 			<div className='container-2A'>
-				<img id='img5' src='/assets/fotoEclair3.webp' alt='foto5' />
-				<img id='img6' src='/assets/fotoPostre.webp' alt='foto6' />
+				<img id='img5' src='/assets/fotoParpatana3.webp' alt='foto5'/>
+				<video id='img6' src='/assets/videoLata.mp4' autoPlay loop muted />
 			</div>
 			<div className='container-2B'>
 				<div id='box2' ref={ref}>

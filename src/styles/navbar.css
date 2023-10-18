@@ -10,7 +10,7 @@
 
 .navbar-list {
 	display: flex;
-	gap: 3px;
+	gap: 4px;
 }
 
 .navbar-list-element {

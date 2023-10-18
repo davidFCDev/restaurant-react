@@ -32,7 +32,10 @@
 		padding-bottom: 4rem;
 	}
 	.hero {
-		background-image: url('/assets/fotoBuñuelo.webp');
+		background-image: url('/assets/fotoChefLatas.webp');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		justify-content: end;
 	}
 }
@@ -59,5 +62,9 @@
 	}
 	.hero {
 		justify-content: flex-end;
+		background-image: url('/assets/fotoChefs3.webp');
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }

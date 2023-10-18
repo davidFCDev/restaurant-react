@@ -17,7 +17,6 @@
 }
 
 #box3A {
-	border: 1px solid black;
 	background-color: #ed302f;
 	color: white;
 	width: 50%;
@@ -36,28 +35,24 @@
 }
 
 #img8 {
-	border: 1px solid black;
 	width: 50%;
 }
 
 #box3B {
 	display: flex;
-	width: 65%;
+	width: 67%;
 }
 
 #img9 {
-	border: 1px solid black;
 	width: 45%;
 }
 
 #img10 {
-	border: 1px solid black;
 	width: 55%;
 }
 
 #img11 {
-	border: 1px solid black;
-	width: 35%;
+	width: 33%;
 }
 
 @media (max-width: 767px) {
@@ -85,16 +80,13 @@
 		width: 70%;
 	}
 	#img9 {
-		border: 1px solid black;
 		width: 45%;
 	}
 	#img10 {
-		border: 1px solid black;
 		width: 55%;
 	}
 	#img11 {
-		border: 1px solid black;
-		width: 30%;
+		width: 33%;
 	}
 }
 
