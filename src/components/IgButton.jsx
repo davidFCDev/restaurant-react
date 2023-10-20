@@ -3,7 +3,9 @@ import '../styles/igButton.css';
 const IgButton = () => {
 	return (
 		<div className='ig-btn'>
-		<img src='/assets/logotipo-solete-HORIZONTAL.png' alt='logo' className='w-16 md:w-20 bg-white rounded-md '/>
+		<a href='https://www.guiarepsol.com/es/fichas/solete/puzzle-332370/' target='_blank' className='flex overflow-hidden rounded-md '>
+			<img src='/assets/logotipo-solete-HORIZONTAL.png' alt='logo' className='w-16 md:w-20 bg-white rounded-md hover:scale-110 transition-all'/>
+		</a>
 			<button
 				className='insta-btn '
 				onClick={event => {
