@@ -17,7 +17,7 @@ const Hero = () => {
     return (
         <section className='hero'>
             <div className='logo-container' ref={ref}>
-                <motion.img 
+                <motion.img
                     initial={{ opacity: 0, y: 50 }}
                     animate={ inView ? animationOptions : {} }
                     src='/assets/logoPuzzleBlanco.png' alt='logo' 
