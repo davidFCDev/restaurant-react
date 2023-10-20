@@ -27,7 +27,7 @@
     width: 50%;
     height: 100%;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
 }
@@ -52,13 +52,15 @@
 }
 
 .chef-img-container div:nth-child(1) {
-    bottom: 10px;
-    right: 12px;
+
 }
 
 .chef-img-container div:nth-child(2) {
-    top: 10px;
-    left: 12px;
+
+}
+
+.chef-img-container div:nth-child(3) {
+
 }
 
 #chef1 {
@@ -67,6 +69,11 @@
 }
 
 #chef2 {
+    width: 100%;
+    height: 100%;
+}
+
+#chef3 {
     width: 100%;
     height: 100%;
 }

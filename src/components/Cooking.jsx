@@ -20,11 +20,17 @@ const Cooking = () => {
 
     const animationOptions3 = {
         opacity: 1,
-        x: 0,
+        y: 0,
         transition: { duration: 1.2 }
     };
 
     const animationOptions4 = {
+        opacity: 1,
+        x: 0,
+        transition: { duration: 1.2 }
+    };
+
+    const animationOptions5 = {
         opacity: 1,
         x: 0,
         transition: { duration: 1.2 }
@@ -35,6 +41,7 @@ const Cooking = () => {
     const [ ref3, inView3 ] = useInView({ threshold: 0.9, triggerOnce: true});
     const [ ref4, inView4 ] = useInView({ threshold: 0.9, triggerOnce: true});
     const [ ref5, inView5 ] = useInView({ threshold: 0.9, triggerOnce: true});
+    const [ ref6, inView6 ] = useInView({ threshold: 0.9, triggerOnce: true});
 
     return (
         <section id='cooking' className='cooking'>
@@ -57,21 +64,30 @@ const Cooking = () => {
                         alt='chef2' 
                         />
                 </motion.div>
+                <motion.div 
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={ inView3 ? animationOptions3 : {} } ref={ref3}>
+                    <img 
+                        id='chef3' 
+                        src='/assets/fotoChef3.jpg' 
+                        alt='chef3' 
+                        />
+                </motion.div>
             </div>
             <div className='chef-text-container'>
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
-                    animate={ inView3 ? animationOptions3 : {} } ref={ref3}>
+                    animate={ inView4 ? animationOptions4 : {} } ref={ref4}>
                     <TextBubbleLeft text={'"Fusión de sabores en cada bocado"'}/>
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
-                    animate={ inView4 ? animationOptions4 : {} } ref={ref4}>
-                    <TextBubbleRight text={'"Tradición y vanguardia a partes iguales"'}/>
+                    animate={ inView5 ? animationOptions5 : {} } ref={ref5}>
+                    <TextBubbleRight text={'"Vinos originales y con flow"'}/>
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}
-                    animate={ inView5 ? animationOptions3 : {} } ref={ref5}>
+                    animate={ inView6 ? animationOptions4 : {} } ref={ref6}>
                     <TextBubbleLeft text={'"Diversión gastronómica sin límites"'}/>
                 </motion.div>
             </div>
