@@ -3,7 +3,7 @@ import '../styles/igButton.css';
 const IgButton = () => {
 	return (
 		<div className='ig-btn'>
-		<img src='/assets/logotipo-solete-HORIZONTAL.png' alt='logo' className='w-20 bg-white rounded-md'/>
+		<img src='/assets/logotipo-solete-HORIZONTAL.png' alt='logo' className='w-16 md:w-20 bg-white rounded-md '/>
 			<button
 				className='insta-btn '
 				onClick={event => {
