@@ -3,7 +3,8 @@ import '../styles/igButton.css';
 const IgButton = () => {
 	return (
 		<div className='ig-btn'>
-			<button
+		<img src='/public/assets/logotipo-solete-HORIZONTAL.png' alt='logo' className='w-28 bg-white rounded-md'/>
+			{/* <button
 				className='insta-btn'
 				onClick={event => {
 					if (!window.confirm('¿Quieres acceder a Instagram?')) {
@@ -14,7 +15,7 @@ const IgButton = () => {
 				<a target='_blank' href='https://www.instagram.com/puzzle_madrid/'>
 					<img src='/assets/iconoInstagram.png' alt='ig' />
 				</a>
-			</button>
+			</button> */}
 		</div>
 	);
 };
