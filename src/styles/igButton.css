@@ -1,11 +1,19 @@
 .ig-btn {
     position: fixed;
     display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
     z-index: 10;
     bottom: 2%;
     right: 1%;
     padding: 0.3rem;
-    border-radius: 12px;
+    border-radius: 8px;
+}
+
+.insta-btn {
+    background-color: white;
+    padding: 6px 8px;
+    border-radius: 10px;
 }
 
 .insta-btn img:hover {
