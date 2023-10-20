@@ -1,7 +1,8 @@
 .ig-btn {
     position: fixed;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    align-items: end;
     gap: 5px;
     z-index: 10;
     bottom: 2%;
@@ -11,8 +12,8 @@
 }
 
 .insta-btn {
-    background-color: rgba(255, 255, 255, 0.864);
-    padding: 6px 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
     border-radius: 10px;
 }
 
@@ -29,12 +30,12 @@
     .ig-btn {
         bottom: 0.6%;
         right: 1%;
+        gap: 3px
     }
     .insta-btn {
-        width: 40px;
-    }
-    .insta-btn img {
-        width: 25px;
+        width: 28px;
+        padding: 4px;
+        border-radius: 5px;
     }
 
 }

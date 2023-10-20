@@ -43,7 +43,7 @@
 
 @media (max-width: 767px) {
 	.navbar-list-element {
-		background-color: rgb(255, 255, 255);
+		background-color: rgba(255, 255, 255, 0.897);
 		color: black;
 		padding: 1rem 1.7rem;
 		font-size: 13px;
